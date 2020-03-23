@@ -1,0 +1,20 @@
+{
+    "name": "sap.m.sample.viewsettingsdialog",
+    "version": "1.0.0",
+    "description": "",
+    "main": "C.controller.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@openui5/sap.f": "^1.74.0",
+        "@openui5/sap.m": "^1.74.0",
+        "@openui5/sap.uxap": "^1.74.0",
+        "@openui5/sap.ui.core": "^1.74.0",
+        "@openui5/sap.ui.layout": "^1.74.0",
+        "@openui5/sap.ui.unified": "^1.74.0",
+        "@openui5/themelib_sap_fiori_3": "^1.74.0"
+    }
+}

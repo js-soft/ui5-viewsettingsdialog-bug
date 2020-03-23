@@ -1,0 +1,30 @@
+<core:FragmentDefinition xmlns="sap.m" 
+	xmlns:core="sap.ui.core">
+	<ViewSettingsDialog confirm="handleConfirm" 
+		cancel="handleCancel">
+		<filterItems>
+			<ViewSettingsFilterItem text="Field1" 
+				key="1" 
+				items="{Test>/Field1}">
+				<items>
+					<ViewSettingsItem text="{Test>text}" 
+						key="{Test>key}" /><!-- key explicitly bound -->
+				</items>
+			</ViewSettingsFilterItem>
+			<ViewSettingsFilterItem text="Field2" 
+				key="2" 
+				items="{Test>/Field2}">
+				<items>
+					<ViewSettingsItem text="{Test>text}" /><!-- no explicit key -->
+				</items>
+			</ViewSettingsFilterItem>
+			<ViewSettingsFilterItem text="Field3" 
+				key="3" 
+				items="{Test>/Field3}">
+				<items>
+					<ViewSettingsItem text="{Test>text}" />
+				</items>
+			</ViewSettingsFilterItem>
+		</filterItems>
+	</ViewSettingsDialog>
+</core:FragmentDefinition>

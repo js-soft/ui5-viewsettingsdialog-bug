@@ -1,0 +1,4 @@
+specVersion: '1.0'
+metadata:
+  name: sap.m.sample.viewsettingsdialog
+type: application
